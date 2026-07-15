@@ -4,7 +4,7 @@
 
 # Hi, I'm Kishor Kumar 👋
 
-### Aspiring AI/ML Engineer · Python & FastAPI Developer
+### Aspiring Artificial Intelligence & Machine Learning Engineer | Python & Libraries | Database
 
 <img src="https://komarev.com/ghpvc/?username=Kishor-2606&label=Profile%20Views&color=2563eb&style=flat" alt="profile views"/>
 <img src="https://img.shields.io/github/followers/Kishor-2606?label=Follow&style=social" alt="followers"/>
@@ -79,7 +79,7 @@ A single assistant that reasons, listens, searches documents, and generates imag
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kishor-kumar-ss)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kishor-kumar-ss07/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kishorkumarss2612@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Kishorkumar6505/)
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/Kishor-Kumar-SS)
