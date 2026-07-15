@@ -1,10 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:2563eb&height=160&section=header" width="100%"/>
+<img src="./assets/banner.svg" width="100%" alt="Kishor Kumar - AI/ML Engineer"/>
 
-# Hi, I'm Kishor Kumar 👋
+<br/>
 
-### Aspiring Artificial Intelligence & Machine Learning Engineer | Python & Libraries | API | Database
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1200&color=38BDF8&center=true&vCenter=true&width=560&lines=Building+RAG+%2B+Multi-Agent+systems;Training+models%2C+one+epoch+at+a+time;Turning+ECE+fundamentals+into+intelligent+systems" alt="typing"/>
+
+<br/>
+
+<img src="https://komarev.com/ghpvc/?username=Kishor-2606&label=Profile%20Views&color=2563eb&style=flat" alt="profile views"/>
+<img src="https://img.shields.io/github/followers/Kishor-2606?label=Follow&style=social" alt="followers"/>
 
 </div>
 
@@ -67,8 +72,7 @@ A single assistant that reasons, listens, searches documents, and generates imag
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Kishor-2606&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%"/>
-<img src="https://streak-stats.demolab.com?user=Kishor-2606&theme=tokyonight&hide_border=true" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Kishor-2606&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="70%"/>
 
 </div>
 
@@ -76,15 +80,15 @@ A single assistant that reasons, listens, searches documents, and generates imag
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kishor-kumar-ss07/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kishor-kumar-ss)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kishorkumarss2612@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Kishorkumar6505/)
-[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/kishorkumarss261)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/Kishor-Kumar-SS)
 
 </div>
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:2563eb&height=100&section=footer"/>
+`— thanks for stopping by, let's build something intelligent —`
 
 </div>
