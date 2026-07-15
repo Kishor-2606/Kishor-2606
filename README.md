@@ -6,9 +6,6 @@
 
 ### Aspiring Artificial Intelligence & Machine Learning Engineer | Python & Libraries | Database
 
-<img src="https://komarev.com/ghpvc/?username=Kishor-2606&label=Profile%20Views&color=2563eb&style=flat" alt="profile views"/>
-<img src="https://img.shields.io/github/followers/Kishor-2606?label=Follow&style=social" alt="followers"/>
-
 </div>
 
 ## About Me
