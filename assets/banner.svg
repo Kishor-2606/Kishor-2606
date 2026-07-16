@@ -1,0 +1,145 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#03060d"/>
+      <stop offset="55%" stop-color="#0a1a33"/>
+      <stop offset="100%" stop-color="#071527"/>
+    </linearGradient>
+    <radialGradient id="spotlight" cx="50%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#1e50a0" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1e50a0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="55%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="chipFace" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#132339"/>
+      <stop offset="100%" stop-color="#060c17"/>
+    </linearGradient>
+    <linearGradient id="chipBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="blurSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <filter id="blurGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="panelShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  <ellipse cx="620" cy="40" rx="560" ry="200" fill="url(#spotlight)"/>
+
+  <g stroke="#12253f" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="55" x2="1200" y2="55"/>
+    <line x1="0" y1="245" x2="1200" y2="245"/>
+    <line x1="230" y1="0" x2="230" y2="300"/>
+    <line x1="590" y1="0" x2="590" y2="300"/>
+    <line x1="880" y1="0" x2="880" y2="300"/>
+  </g>
+
+  <circle cx="700" cy="150" r="100" fill="url(#cyanGlow)" filter="url(#blurSoft)" style="mix-blend-mode:screen" opacity="0.55"/>
+  <circle cx="1020" cy="150" r="80" fill="url(#violetGlow)" filter="url(#blurSoft)" style="mix-blend-mode:screen" opacity="0.4"/>
+  <circle cx="180" cy="220" r="70" fill="url(#cyanGlow)" filter="url(#blurSoft)" style="mix-blend-mode:screen" opacity="0.18"/>
+
+  <g stroke="#1e3a5f" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M60,60 L200,60 L200,20"/>
+    <path d="M60,250 L260,250 L260,280"/>
+    <path d="M900,20 L1150,20 L1150,55"/>
+    <path d="M900,280 L1150,280 L1150,245"/>
+  </g>
+
+  <g stroke="url(#chipBorder)" stroke-width="1.8" fill="none" opacity="0.85">
+    <path d="M620,120 L560,120 L560,55 L470,55"/>
+    <circle cx="470" cy="55" r="4" fill="#67e8f9"/>
+    <path d="M620,150 L540,150 L500,150"/>
+    <circle cx="500" cy="150" r="3.5" fill="#38bdf8"/>
+    <path d="M620,180 L560,180 L560,245 L470,245"/>
+    <circle cx="470" cy="245" r="4" fill="#67e8f9"/>
+    <path d="M780,120 L840,120 L840,65 L890,65"/>
+    <circle cx="890" cy="65" r="4" fill="#67e8f9"/>
+    <path d="M780,150 L860,150 L890,150"/>
+    <circle cx="890" cy="150" r="3.5" fill="#38bdf8"/>
+    <path d="M780,180 L840,180 L840,235 L890,235"/>
+    <circle cx="890" cy="235" r="4" fill="#67e8f9"/>
+  </g>
+
+  <circle cx="500" cy="150" r="3" fill="#e0f2fe" filter="url(#blurGlow)">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="890" cy="150" r="3" fill="#e0f2fe" filter="url(#blurGlow)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <g stroke="#3b82f6" stroke-width="2">
+    <line x1="650" y1="110" x2="650" y2="95"/>
+    <line x1="700" y1="110" x2="700" y2="95"/>
+    <line x1="750" y1="110" x2="750" y2="95"/>
+    <line x1="650" y1="190" x2="650" y2="205"/>
+    <line x1="700" y1="190" x2="700" y2="205"/>
+    <line x1="750" y1="190" x2="750" y2="205"/>
+  </g>
+
+  <rect x="620" y="110" width="160" height="80" rx="12" fill="url(#chipFace)" stroke="url(#chipBorder)" stroke-width="2.5"/>
+  <rect x="632" y="122" width="136" height="56" rx="8" fill="none" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="700" y="158" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#e0f2fe" text-anchor="middle" filter="url(#blurGlow)">AI·ML</text>
+
+  <g fill="#bae6fd">
+    <circle cx="330" cy="70" r="1.6" opacity="0.5"/>
+    <circle cx="410" cy="210" r="1.2" opacity="0.4"/>
+    <circle cx="520" cy="90" r="1.8" opacity="0.5"/>
+    <circle cx="560" cy="220" r="1.3" opacity="0.35"/>
+    <circle cx="850" cy="90" r="1.5" opacity="0.4"/>
+    <circle cx="820" cy="215" r="1.2" opacity="0.4"/>
+    <circle cx="960" cy="230" r="1.6" opacity="0.35"/>
+    <circle cx="140" cy="120" r="1.4" opacity="0.4"/>
+  </g>
+
+  <text x="60" y="128" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="800" fill="url(#nameGrad)" letter-spacing="0.5">KISHOR KUMAR</text>
+  <text x="62" y="158" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#93c5fd">AI/ML Engineer in the making</text>
+
+  <g font-family="monospace" font-size="11" fill="#0a1a33">
+    <rect x="62" y="172" width="62" height="20" rx="10" fill="#38bdf8"/>
+    <text x="93" y="186" text-anchor="middle">Python</text>
+    <rect x="130" y="172" width="70" height="20" rx="10" fill="#22d3ee"/>
+    <text x="165" y="186" text-anchor="middle">FastAPI</text>
+    <rect x="206" y="172" width="52" height="20" rx="10" fill="#818cf8"/>
+    <text x="232" y="186" text-anchor="middle" fill="#0b1220">RAG</text>
+    <rect x="264" y="172" width="52" height="20" rx="10" fill="#67e8f9"/>
+    <text x="290" y="186" text-anchor="middle">LLMs</text>
+  </g>
+
+  <rect x="900" y="55" width="250" height="190" rx="10" fill="#0a1424" fill-opacity="0.88" stroke="#1e3a5f" stroke-width="1.2" filter="url(#panelShadow)"/>
+  <rect x="900" y="55" width="250" height="26" rx="10" fill="#0d1b30"/>
+  <circle cx="917" cy="68" r="4.2" fill="#ef4444"/>
+  <circle cx="933" cy="68" r="4.2" fill="#eab308"/>
+  <circle cx="949" cy="68" r="4.2" fill="#22c55e"/>
+  <text x="1125" y="72" font-family="monospace" font-size="10" fill="#475569" text-anchor="end">ai-lab</text>
+
+  <text x="915" y="102" font-family="monospace" font-size="12" fill="#818cf8">import<tspan fill="#e0f2fe"> torch</tspan></text>
+  <text x="915" y="122" font-family="monospace" font-size="12" fill="#e0f2fe">model = load()</text>
+  <text x="915" y="142" font-family="monospace" font-size="12" fill="#818cf8">while<tspan fill="#e0f2fe"> learning:</tspan></text>
+  <text x="925" y="162" font-family="monospace" font-size="12" fill="#facc15">train(model)</text>
+  <text x="915" y="182" font-family="monospace" font-size="11" fill="#4ade80"># acc: 94.2%</text>
+  <text x="915" y="202" font-family="monospace" font-size="12" fill="#94a3b8">status: shipping</text>
+  <rect x="1040" y="190" width="7" height="14" fill="#38bdf8">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0" y="296" width="1200" height="4" fill="url(#nameGrad)"/>
+</svg>
