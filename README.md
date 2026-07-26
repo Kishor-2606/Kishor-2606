@@ -1,11 +1,6 @@
-<div align="center">
-
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:2563eb&height=160&section=header" width="100%"/>
 
 <p align="center">
-  <img src="./assets/github-banner.png" width="100%" alt="GitHub Banner"/>
+  <img src="assets/Banner.png" alt="Kishor Kumar Banner" width="100%">
 </p>
 
 </div>
